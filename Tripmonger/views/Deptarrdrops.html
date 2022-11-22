@@ -1,0 +1,45 @@
+<html>
+<body>
+<section>
+  <article>
+  <div class="form-check">
+  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+  <label class="form-check-label" for="flexRadioDefault1">
+    One Way Flights
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+  <label class="form-check-label" for="flexRadioDefault2">
+    Return Flights
+  </label>
+</div>
+<form action="url">
+    <label for="Departure Destination"><h1>Enter Departure Destination, Date and Time</h1></label>
+<select name="DepartureD" id="Locations"> 
+  <option value=0>--Select Departure Destination--</option>
+  <option value="ChicagoIL">Chicago, IL</option>
+  <option value="DallasTX">Dallas, TX</option>
+  <option value="NewYorkNY">NewYork City, NY</option>
+  <option value="SanFransiscoCA">SanFransisco, CA</option>
+</select>
+      <input type="datetime-local" id="Test_DatetimeLocal">
+
+    <h1>Enter Arrival Destination, Date and Time</h1>
+<select name="ArrivalD" id="Locations">
+  <option value=0>--Select Arrival Destination--</option>
+  <option value="ChicagoIL">Chicago, IL</option>
+  <option value="DallasTX">Dallas, TX</option>
+  <option value="NewYorkNY">NewYork City, NY</option>
+  <option value="SanFransiscoCA">SanFransisco, CA</option>
+</select>
+      <input type="datetime-local" id="Test_DatetimeLocal">
+<br>
+<button type="submit" value="Submit">Submit</button>
+<br>
+<button type="reset" value="Reset">Reset</button>
+</form>
+    </article>
+</section>
+</body>
+</html>
